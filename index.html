@@ -51,9 +51,12 @@
 <body>
     <h2 id="graphTitle">Select a month to view the social network</h2>
 
+    <!-- Pre-Pandemic Social Networks -->
     <div class="dropdown">
         <button class="button dropbtn">Before The Pandemic</button>
         <div class="dropdown-content">
+            <button onclick="loadGraph('', 'August 2019')">August 2019</button>
+            <button onclick="loadGraph('', 'September 2019')">September 2019</button>
             <button onclick="loadGraph('', 'October 2019')">October 2019</button>
             <button onclick="loadGraph('', 'November 2019')">November 2019</button>
             <button onclick="loadGraph('', 'December 2019')">December 2019</button>
@@ -62,33 +65,23 @@
         </div>
     </div>
 
-    
-    <!-- With Possible Duplicates -->
-    <!-- <div class="dropdown">
-        <button class="button dropbtn">During The Pandemic</button>
-        <div class="dropdown-content">
-            <button onclick="loadGraph('https://bit.ly/3YbTgmT', 'October 2020')">October 2020</button>
-            <button onclick="loadGraph('https://bit.ly/3Nj45xa', 'November 2020')">November 2020</button>
-            <button onclick="loadGraph('https://bit.ly/3ZOmd9V', 'December 2020')">December 2020</button>
-            <button onclick="loadGraph('https://bit.ly/3NfEvcE', 'January 2021')">January 2021</button>
-            <button onclick="loadGraph('https://bit.ly/4f0FsBt', 'Whole Pandemic')">Whole Pandemic</button>
-        </div>
-    </div> -->
 
-
-    <!-- Certainly No Duplicates -->
+    <!-- During Pandemic Social Networks -->
     <div class="dropdown">
         <button class="button dropbtn">During The Pandemic</button>
         <div class="dropdown-content">
-            <button onclick="loadGraph('https://tinyurl.com/2btffvdt', 'October 2020')">October 2020</button>
-            <button onclick="loadGraph('https://tinyurl.com/mshk7eeh', 'November 2020')">November 2020</button>
-            <button onclick="loadGraph('https://tinyurl.com/3pteekrp', 'December 2020')">December 2020</button>
-            <button onclick="loadGraph('https://tinyurl.com/abfrrn39', 'January 2021')">January 2021</button>
-            <button onclick="loadGraph('https://tinyurl.com/myxv4scd', 'Whole Duration')">Whole Duration</button>
+            <button onclick="loadGraph('https://tinyurl.com/n7ev86zx', 'August 2020')">August 2020</button>
+            <button onclick="loadGraph('', 'September 2020')">September 2020</button>
+            <button onclick="loadGraph('', 'October 2020')">October 2020</button>
+            <button onclick="loadGraph('', 'November 2020')">November 2020</button>
+            <button onclick="loadGraph('', 'December 2020')">December 2020</button>
+            <button onclick="loadGraph('', 'January 2021')">January 2021</button>
+            <button onclick="loadGraph('', 'Whole Duration')">Whole Duration</button>
         </div>
     </div>
 
     
+    <!-- Post-Pandemic Social Networks -->
     <div class="dropdown">
         <button class="button dropbtn">After The Pandemic</button>
         <div class="dropdown-content">
@@ -96,6 +89,8 @@
             <button onclick="loadGraph('', 'December 2022')">December 2022</button>
             <button onclick="loadGraph('', 'January 2023')">January 2023</button>
             <button onclick="loadGraph('', 'February 2023')">February 2023</button>
+            <button onclick="loadGraph('', 'March 2023')">March 2023</button>
+            <button onclick="loadGraph('', 'April 2023')">April 2023</button>
             <button onclick="loadGraph('', 'Whole Post-Pandemic')">Whole Post-Pandemic</button>
         </div>
     </div>
